@@ -8,7 +8,7 @@ const styles = {
     flexDirection: "column",
     justifyContent: "space-between",
     alignItems: "center",
-    padding: 30
+    padding: 80
   },
   start: {
     fontSize: 100

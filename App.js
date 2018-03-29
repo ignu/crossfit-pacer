@@ -5,6 +5,7 @@ import {Provider} from 'mobx-react'
 import Coach from './lib/coach';
 
 import Start from './components/Start'
+import Settings from './components/Settings'
 
 const styles = {
   navBar: {
@@ -35,7 +36,7 @@ export default class App extends React.Component {
             <Scene key="root">
               <Scene key="timer" component={Start} hideNavBar/>
               <Scene key="start" component={Start} initial hideNavBar />
-              <Scene key="settings" component={Start} title="Settings" />
+              <Scene key="settings" component={Settings} title="Settings" />
             </Scene>
           </Router>
         </View>
